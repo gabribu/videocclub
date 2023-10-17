@@ -18,8 +18,9 @@ const copyModel = require('./models/copy');
 */
 
 
-const sequelize = new Sequelize('dbVideoClub', 'root', 'abcd1234',{
-    host: '127.0.0.1',
+const sequelize = new Sequelize('railway', 'root', '0sqw5nu$muisbctvnhx4c1bcuo2bqqlt',{
+    host: 'roundhouse.proxy.rlwy.net',
+    port: 51219,
     dialect: 'mysql',
 });
 
