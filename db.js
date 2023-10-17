@@ -16,9 +16,10 @@ const copyModel = require('./models/copy');
     3) Contraseña db
     4) Objeto de config ORM
 */
-const sequelize = new Sequelize('video-club', 'root', 'abcd1234', {
-        host: '127.0.0.1', 
-        dialect: 'mysql',
+
+const sequelize = new Sequelize('dbVideoClub', 'root', 'abcd1234',{
+    host: '127.0.0.1',
+    dialect: 'mysql'
 });
 
 const User = userModel(sequelize, Sequelize);
