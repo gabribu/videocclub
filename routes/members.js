@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/directors');
+const controller = require('../controllers/members');
+
 
 router.post('/', controller.create);
 
